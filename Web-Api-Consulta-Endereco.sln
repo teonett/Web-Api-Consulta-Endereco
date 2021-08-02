@@ -9,6 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsultaEndereco.Service", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsultaEndereco.Core", "src\ConsultaEndereco.Core\ConsultaEndereco.Core.csproj", "{07EF5A19-8F0A-4C2B-A062-6DDBD4ED7DC1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{A111045D-E5D8-4CF3-98B1-C8FA15CE1D5F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Downloads\WebApi-Endereco.jpg = ..\..\..\..\Downloads\WebApi-Endereco.jpg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
