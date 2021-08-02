@@ -7,7 +7,7 @@ Api que consulta endereços a partir dos endereços públicos :
 
 
 ### Sobre o Projeto
-A aplicação consistem na leitura dos dadops disponibilizados de cada Api, sendo ele apenas através do Cep ou mesmo utilizando parcialmente dados do endereço.
+A aplicação consistem na leitura dos dados disponibilizados de cada Api publica, sendo a pesquisa sendo feita apenas através do Cep ou mesmo utilizando parcialmente dados do endereço, bairro, cidade, estado....
 
 <img src="https://github.com/teonett/Web-Api-Consulta-Endereco/blob/main/WebApi-Endereco.jpg">
 <img src="https://github.com/teonett/Web-Api-Consulta-Endereco/blob/main/Swagger-01.png">
