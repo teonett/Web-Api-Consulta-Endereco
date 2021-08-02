@@ -18,11 +18,15 @@ namespace ConsultaEndereco.Api.Controllers
         [HttpGet("{zipCode}")]
         public async Task<IActionResult> Get(string zipCode)
         {
-            if()
+            long number1 = 0;
+            bool canConvert = long.TryParse(zipCode, out number1);
 
+            if (!canConvert)
+                return Ok();
 
             var result = string.IsNullOrWhiteSpace(zipCode) ? null :
-                         await service.Get(zipCode);
+                        await service.Get(zipCode);
+
             return Ok(result);
         }
     }
