@@ -11,6 +11,7 @@ namespace ConsultaEndereco.Service.DependencyInjection
             services.AddScoped<ICepLaService, CepLaService>();
             services.AddScoped<ICorreiosService, CorreiosService>();
             services.AddScoped<IViaCepService, ViaCepService>();
+            services.AddScoped<IPostmonService, PostmonService>();
 
             return services;
         }
